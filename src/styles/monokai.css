@@ -26,7 +26,8 @@ pre code {
   color: #DDD;
 }
 
-pre code .constant {
+pre code .constant,
+pre code .literal {
 	color: #66D9EF;
 }
 
@@ -37,7 +38,8 @@ pre .class .title {
 pre .attribute,
 pre .symbol,
 pre .value,
-pre .regexp {
+pre .regexp,
+pre .json .number {
 	color: #BF79DB;
 }
 

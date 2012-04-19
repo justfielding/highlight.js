@@ -51,7 +51,8 @@ pre .annotation,
 pre .template_comment,
 pre .diff .header,
 pre .chunk,
-pre .markdown .blockquote {
+pre .markdown .blockquote,
+pre .json .null {
   color: #888;
 }
 
@@ -88,7 +89,8 @@ pre .nginx .built_in,
 pre .tex .formula,
 pre .erlang_repl .reserved,
 pre .input_number,
-pre .markdown .link_label {
+pre .markdown .link_label,
+pre .json .boolean {
   color: #88F
 }
 
