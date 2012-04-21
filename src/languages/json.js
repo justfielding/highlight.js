@@ -15,7 +15,7 @@ hljs.LANGUAGES.json = function() {
         hljs.C_NUMBER_MODE,
         {
           className: 'keyword',
-          begin: '(("|\')+([A-Za-z])+("|\')+):',
+          begin: '(("|\')+([A-Za-z0-9!?.,+\-])+("|\')+):',
           relevance: 0
         },
         hljs.APOS_STRING_MODE,
